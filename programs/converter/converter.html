@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Converter</title>
+    <link rel="stylesheet" href="/programs/converter/converter.css">
+</head>
+<body>
+    <div class="form">
+        <h1>Convert Temperature:</h1>
+        <input type="number" id="degree" value="0"><br>
+        <input type="radio" id="toF" name="convert">
+        <label for="toF">To Celcius</label>
+        <input type="radio" id="toC" name="convert">
+        <label for="toC">To Farenheit</label>
+        <br>
+        <button id="btn" onclick="convert()">Convert</button><br>
+        <p id="result"></p>
+    </div>
+    
+    <script src="/programs/converter/converter.js"></script>
+
+</body>
+</html>

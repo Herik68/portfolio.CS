@@ -1,0 +1,23 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: gainsboro;
+    text-align: center;
+}
+h1{
+    color: blue;
+}
+.form{
+    background-color: white;
+    width: 250px;
+    padding: 5em 10em;
+    margin: auto;
+    font-weight: bold;
+}
+button{
+    padding: 10px 15px;
+    background-color: skyblue;
+    color: rgb(21, 0, 255);
+}
+#result{
+    color: red;
+}

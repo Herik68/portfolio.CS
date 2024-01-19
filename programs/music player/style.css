@@ -1,0 +1,57 @@
+
+body{
+    background-color: rgb(122, 156, 171);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bold{
+    color:white;
+    font-style: italic;
+    border: 3px solid black;
+    border-radius: 10px;
+    text-shadow: 5px 5px 10px rgb(250, 88, 234);
+}
+#h{
+    color: black;
+    font-size: 1.2em;
+}
+#h::first-letter{
+    font: 4em italic;
+}
+#cover{
+    box-shadow: 3px 3px 5px rgb(0, 0, 0);
+    margin: 30px;
+    width: 400px;
+    height: 300px;
+    animation: slideright;
+    animation-duration: 348s;
+    animation-timing-function: linear;
+}
+#song{
+    display: block;
+}
+#lyrics{
+    color: cyan;
+}
+p{
+    color: palegreen;
+}
+a{
+    color: pink;
+    text-decoration: none;
+}
+a:hover{
+    color: brown;
+    font-style: italic;
+}
+a:active{
+    background-color: green;
+}
+@keyframes slideleft{
+    from{transform: translateX(300%)}
+}
+@keyframes slideright{
+    to{transform: translateX(300%);}
+}
+@keyframes fade{
+    50%{opacity: 40;}
+}
